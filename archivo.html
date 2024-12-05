@@ -33,7 +33,7 @@ function LoadTheArchive(TotalFeed)
 
 function DisplaytheTOC(PostTitles,PostURLs,PostYears,PostMonths,PostDays)
 {
-    var MonthNames=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Augosto","Septiembre","Octubre","Noviembre","Diciembre"];
+    var MonthNames=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
     var NumberOfEntries=PostTitles.length;
     var currentMonth = "";
     var currentYear = "";
@@ -69,16 +69,15 @@ var parsed_day = parseInt(PostDays[EntryNum],10) > 9 ? "" + parseInt(PostDays[En
 </script>
 <!--CUSTOMIZATION-->
 <style type="text/css">
+  
 .dateStyle {
-     color:#333333;
-     font-weight:22px;
-     margin: -100;
+     font-weight: bold;
+     margin: 10px;
 }
 
 .dayStyle {
-     color:#333333;
-     font-weight:22px;
+     font-weight: bold;
      display: inline-block;
 }
-.post-header{display:none;}
+
 </style>
